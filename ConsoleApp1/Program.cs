@@ -18,5 +18,5 @@ const string expectedXorOutcome = "746865206b696420646f6e277420706c6179";
 
 var xorResult = FixedXor.Xor(feederString, xorString).ToLower();
 
-Console.Write("Set 1 - Challenge 2 - Convert hex to base64: ");
+Console.Write("Set 1 - Challenge 2 - produces XOR: ");
 Console.WriteLine(xorResult == expectedXorOutcome ? "Success!" : "Failure!");
