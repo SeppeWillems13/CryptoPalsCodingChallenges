@@ -4,6 +4,8 @@ public static class FixedXor
 {
     public static string Xor(string hex1, string hex2)
     {
+        //q: explain this code to me in a way that I can understand it
+        
         var bytes1 = Enumerable.Range(0, hex1.Length)
             .Where(x => x % 2 == 0)
             .Select(x => Convert.ToByte(hex1.Substring(x, 2), 16))

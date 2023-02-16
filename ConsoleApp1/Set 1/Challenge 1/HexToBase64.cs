@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1;
+﻿namespace ConsoleApp1.Set_1.Challenge_1;
 
 public static class HexToBase64
 {

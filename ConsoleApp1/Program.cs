@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using ConsoleApp1;
+﻿using ConsoleApp1.Set_1.Challenge_1;
 using ConsoleApp1.Set_1.Challenge_2;
 
 //Set 1 - Challenge 1 - Convert hex to base64
